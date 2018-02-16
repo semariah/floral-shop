@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="css/bootsrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -10,43 +10,42 @@
   </head>
   <body>
     <div class="container">
-      <h1>Elsa's Floral shop</h1>
-      <p>This is a website of a floral shop. we give services on online orders in addition to buying florwers in the shop. Elsa's Floral shop has an experience of over 30 years in helsinki, Finland. It started on a small store in 1988 with only the owner and her sister. Gradually, it florished to be a big corporate store that has banches all over Finland.</p>
-      <div class="row">
-        <div class="col-sm-4">
-          <img id="spring flower" src="img/spring-flow.jpg" alt="A beautifl spring flower">
+      <div class="well">
+        <h1>Elsa's Floral shop</h1>
+        <p>This is a website of a floral shop. we give services on online orders in addition to buying florwers in the shop. Elsa's Floral shop has an experience of over 30 years in helsinki, Finland. It started on a small store in 1988 with only the owner and her sister. Gradually, it florished to be a big corporate store that has banches all over Finland.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <img id="spring flower" src="img/spring-flow.jpg" alt="spring flower">
+          </div>
+          <div class="col-md-4">
+            <img id= "love-flowers" src="img/love-flowers.jpg" alt="valentine gift">
+          </div>
+          <div class="col-md-4">
+            <img id=
+            "happyday-flower" src="img/happyday-flowers.jpg" alt="flower on a beautiful day">
+          </div>
         </div>
-        <div class="col-sm-4">
-          <img id= "love-flowers" src="love-flowers" alt="A valentine's perfect gift">
-        </div>
-        <div class="col-sm-4">
-          <img id=
-          "happyday-flower" src="happyday-flower" alt="A flower on a beautiful sunny day">
-        </div>
+        <form>
+          <div class="form-group">
+            <label for="inputName">Enter your name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Enter your address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+            <input type="text" class="form-control" id="inputCity" placeholder="City">
+            <input type="text" class="form-control" id="inputZipcode" placeholder="Zipcode">
+          </div>
+          <div class="form-group">
+            <label for="Flower">Select the flower you wish to buy</label>
+            <select class="form-control">
+              <option>spring-flower</option>
+              <option>love-flowers</option>
+              <option>happyday-flower</option>
+            </select>
+          </div>
+        </form>
       </div>
-      <form>
-        <div class="form-group">
-          <label for="inputName">Enter your name</label>
-          <input type="text" class="form-control" id="inputName" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <label for="inputAddress">Enter your address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Address">
-          <input type="text" class="form-control" id="inputCity" placeholder="City">
-          <input type="text" class="form-control" id="inputZipcode" placeholder="Azipcode">
-        </div>
-        <div class="form-group">
-          <label for="Flower">Select the flower you wish to buy</label>
-          <select class="form-control">
-            <option></option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-
-        </div>
-      </form>
     </div>
   </body>
 </html>
