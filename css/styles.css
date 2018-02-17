@@ -1,9 +1,19 @@
-img {
+img#spring flowers{
   display: none;
+  margin: auto 0;
+  
 }
 
-body{
+
+body {
   background-image: url("https://cdn.pixabay.com/photo/2015/12/08/00/36/white-flowers-1081865_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header{
+  background-image: url("http://www.colorhexa.com/ffd1dc.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

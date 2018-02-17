@@ -11,40 +11,45 @@
   <body>
     <div class="container">
       <div class="well">
-        <h1>Elsa's Floral shop</h1>
-        <p>This is a website of a floral shop. we give services on online orders in addition to buying florwers in the shop. Elsa's Floral shop has an experience of over 30 years in helsinki, Finland. It started on a small store in 1988 with only the owner and her sister. Gradually, it florished to be a big corporate store that has banches all over Finland.</p>
-        <div class="row">
-          <div class="col-md-4">
-            <img id="spring flower" src="img/spring-flow.jpg" alt="spring flower">
-          </div>
-          <div class="col-md-4">
-            <img id= "love-flowers" src="img/love-flowers.jpg" alt="valentine gift">
-          </div>
-          <div class="col-md-4">
-            <img id=
-            "happyday-flower" src="img/happyday-flowers.jpg" alt="flower on a beautiful day">
-          </div>
+        <div class="header">
+          <h1>Elsa's Floral shop</h1>
+          <p>This is a website of a floral shop. we give services on online orders in addition to buying florwers in the shop. Elsa's Floral shop has an experience of over 30 years in helsinki, Finland. It started on a small store in 1988 with only the owner and her sister. Gradually, it florished to be a big corporate store that has banches all over Finland.</p>
+          <form>
+            <div class="form-group">
+              <label for="inputName">Enter your name</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Enter your address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+              <input type="text" class="form-control" id="inputCity" placeholder="City">
+              <input type="text" class="form-control" id="inputZipcode" placeholder="Zipcode">
+            </div>
+            <div class="form-group">
+              <label for="Flower">Select the flower you wish to buy</label>
+              <select class="form-control">
+                <option>spring-flower</option>
+                <option>love-flowers</option>
+                <option>happyday-flower</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-danger">Order</button>
+          </form>
         </div>
-        <form>
-          <div class="form-group">
-            <label for="inputName">Enter your name</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Name">
-          </div>
-          <div class="form-group">
-            <label for="inputAddress">Enter your address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
-            <input type="text" class="form-control" id="inputCity" placeholder="City">
-            <input type="text" class="form-control" id="inputZipcode" placeholder="Zipcode">
-          </div>
-          <div class="form-group">
-            <label for="Flower">Select the flower you wish to buy</label>
-            <select class="form-control">
-              <option>spring-flower</option>
-              <option>love-flowers</option>
-              <option>happyday-flower</option>
-            </select>
-          </div>
-        </form>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <img id="spring flower" src="img/spring-flow.jpg">
+          <p>1.spring-flower</p>
+        </div>
+        <div class="col-sm-4">
+          <img id="love-flowers" src="img/love-flowers.jpg">
+          <p>2.love-flower</p>
+        </div>
+        <div class="col-sm-4">
+          <img id="happyday-flower" src="img/happyday-flowers.jpg">
+          <p>3.happyday-flower</p>
+        </div>
       </div>
     </div>
   </body>
