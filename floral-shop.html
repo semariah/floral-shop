@@ -10,11 +10,12 @@
   </head>
   <body>
     <div class="container">
-      <div class="well">
-        <div class="header">
+      <div class="homepage well">
+        <div class="intro">
           <h1>Elsa's Floral shop</h1>
           <p>This is a website of a floral shop. we give services on online orders in addition to buying florwers in the shop. Elsa's Floral shop has an experience of over 30 years in helsinki, Finland. It started on a small store in 1988 with only the owner and her sister. Gradually, it florished to be a big corporate store that has banches all over Finland.</p>
-          <form>
+
+          <form id="Floral">
             <div class="form-group">
               <label for="inputName">Enter your name</label>
               <input type="text" class="form-control" id="inputName" placeholder="Name">
@@ -27,13 +28,13 @@
             </div>
             <div class="form-group">
               <label for="Flower">Select the flower you wish to buy</label>
-              <select class="form-control">
+              <select class="form-control" id="Flower">
                 <option>spring-flower</option>
                 <option>love-flowers</option>
                 <option>happyday-flower</option>
               </select>
             </div>
-            <button type="submit" class="btn-danger">Order</button>
+            <button type="submit" class="btn-warning">Order</button>
           </form>
         </div>
       </div>
@@ -49,6 +50,16 @@
         <div class="col-sm-4">
           <img id="happyday-flower" src="img/happyday-flowers.jpg">
           <p>3.happyday-flower</p>
+        </div>
+      </div>
+      <div class="receipt well">
+        <div class="header">
+          <h2><span class="Flower"></span> thank you for shopping with us!</h2>
+          <h3>Here is your shipping confirmation:</h3>
+          <p><span class="inputName"></span></p>
+          <p><span class="inputAdress"></span></p>
+          <p><span class="inputCity"></span></p>
+          <p><span class="inputZipcode"></span></p>
         </div>
       </div>
     </div>

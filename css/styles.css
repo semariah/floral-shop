@@ -1,7 +1,7 @@
 img#spring flowers{
   display: none;
   margin: auto 0;
-  
+
 }
 
 
@@ -12,7 +12,7 @@ body {
   background-size: cover;
 }
 
-.header{
+.intro{
   background-image: url("http://www.colorhexa.com/ffd1dc.png");
   background-repeat: no-repeat;
   background-position: center;
