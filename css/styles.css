@@ -4,12 +4,12 @@ img#spring flowers{
 
 }
 
-
 body {
   background-image: url("https://cdn.pixabay.com/photo/2015/12/08/00/36/white-flowers-1081865_960_720.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  font-family: sans-serif;
 }
 
 .intro{
@@ -17,4 +17,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.header {
+  font-family: sans-serif;
+  background-color: pink;
+}
+.reciept {
+  display: none;
 }
